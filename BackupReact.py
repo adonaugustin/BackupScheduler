@@ -22,8 +22,8 @@ def get_folder_size(path):
 
 
 x=time.time()
-source='C:/Users/adon.augustin/Documents/BenPower/React/hmi-compressor-copy/'
-destination='Z:/WeekleyBackup/React1/hmi-compressor-backup/'
+source='path to source'
+destination='path to destination'
 new_path=""
 if os.path.exists(destination): #make a copy of  folder
     dest_new=destination.split('/')
